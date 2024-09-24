@@ -1,0 +1,211 @@
+*{
+  font-family: "Open Sans", sans-serif;
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 88px 80px;
+  background-color: #F5F4F0;
+  font-size: 16px;
+}
+
+/* texto laranja */
+.textOrange{
+  font-size: 16px;
+  font-weight: bold;
+  color: #E1624F;
+  text-transform: uppercase;
+}
+
+/* aplicando um margin no parágrafo do header */
+header p{
+  margin-bottom: 8px;
+}
+
+/* ---TESTES--- */
+/* .gap-2{
+  gap: 2px;
+}
+.gap-8{
+  gap:8px
+} */
+
+/* classe para dar um espaçamento de 40px */
+.mBottom{
+  margin-bottom: 40px;
+}
+
+/* personalizando o header do h1 */
+header h1{
+  font-size: 36px;
+  font-weight: bold;
+  color: #1B1B1B; 
+}
+
+/* personalizando a imagem do nextTrip */
+.nextTrip img{
+  border-radius: 28px;
+  width: 100%;
+  height: 660px;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+/* personalizando o parágrafo do nextTrip */
+.nextTrip p{
+  font-style: italic;
+  text-align: center;
+  margin-top: 24px;
+  color: #333333;
+}
+
+/* configurando o divisor(divider) */
+hr{
+  border: 1px solid #D9D9D9;
+}
+
+/* dando um espaço entre o divider e a classe história */
+.history{
+  margin-top: 64px;
+}
+
+/* configurando a classe "para amantes de história" */
+#loveHistory{
+  margin-top: 8px;
+  margin-bottom: 2px;
+  text-align: justify;
+  color:#333333;
+}
+
+/* personalizando o h2 do history */
+.history h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #1B1B1B;
+}
+
+/* dando um espaço entre a imagem e a seção anterior*/
+.tampleHY{
+  margin-top: 64px;
+}
+
+
+/* ---Teste--- */
+/* .tampleHY div{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  border-radius: 28px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 20px;
+} */
+
+/* --Padronizando as imagens dos cards-- */
+.tampleHY img, 
+.tampleH img, 
+.tampleY img{
+  border-radius: 28px;
+  width: 100%;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* ---Configurando a lista ordenada--- */
+.configOl{
+  padding-left: 50px;
+}
+
+/* ---Configurando a lista--- */
+.configLi{
+  font-size: 28px;
+  font-weight: bold;
+  color: #1B1B1B;
+  /* espaço entre o título e o parágrafo */
+  margin-bottom: 4px;
+} 
+
+/* padronizando os parágrafos */
+.tampleHY p,
+.tampleH p,
+.tampleY p{
+  padding-left: 10px;
+  color: #1B1B1B;
+}
+
+/* ---configurando as listas não ordenadas--- */
+.configUl{
+  padding-left: 10px;
+  margin-bottom: 48px;
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+.configUl spam{
+  color:#0C51A7;
+}
+
+/* ---posicionando o parágrafo dentro da UL--- */
+.configUl p{
+  padding-left: 0px;
+}
+
+/* ---posicionando a dentro da UL--- */
+.configUl li{
+  margin-left: 25px;
+  padding: 0px;
+}
+
+.configUl li{
+  margin-left: 25px;
+  padding: 0px;
+}
+
+/* ---padronizando o h4 dos cards--- */
+.tampleHY h4,
+.tampleH h4,
+.tampleY h4{
+  font-size: 16px;
+  font-weight: bold;
+  color: #696969;
+  margin-bottom: 3px;
+}
+
+.cLastUf h4{
+  margin-left: 10px;
+}
+
+/* personalizando as cores das listas */
+#couple{
+  color: #591B98;
+}
+
+#family{
+  color: #E5245E;
+}
+
+#budget{
+  color: #E95E10;
+}
+/* /personalizando as cores das listas */
+
+/* último parágrafo antes do footer */
+#lastMessage{
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+footer{
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 48px;
+  margin-top: 68px;
+}
