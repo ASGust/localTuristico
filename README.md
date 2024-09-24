@@ -21,7 +21,8 @@
 
 ## 👩‍💻 Sobre o Projeto
 
-Página web simples que mostra o ponto turístico de Busan
+Página web simples que mostra o ponto turístico de Busan.
+O projeto requer o uso da resolução 1280 x 800, para exercer sua melhor versão.
 
 ## :memo: Licença
 
